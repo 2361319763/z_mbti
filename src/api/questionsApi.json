@@ -1,182 +1,1248 @@
-[
-  {
-    "id": 1,
-    "option": "EI",
-    "question": "到达旅行目的地的第一天晚上，在旅馆里首次遇到其他旅行者，你会有何反应？",
-    "answers": [
-      {
-        "type": "E",
-        "content": "打招呼，分享关于旅行的故事。"
-      },
-      {
-        "type": "I",
-        "content": "假装没有看见，为了明天的行程早点休息。"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "option": "EI",
-    "question": "乘坐公交车时，你提前一个站下车了，和你一样犯错的同龄人也下车了。你会怎么做？",
-    "answers": [
-      {
-        "type": "E",
-        "content": "觉得无聊，和他/她聊天一起走。"
-      },
-      {
-        "type": "I",
-        "content": "等车再来，留在车站。"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "option": "EI",
-    "question": "旅行的最后一天，城市举办了盛大的庆祝活动。你会怎么安排？",
-    "answers": [
-      {
-        "type": "E",
-        "content": "用庆祝活动来美好地结束我的旅行。"
-      },
-      {
-        "type": "I",
-        "content": "再次去我在旅途中喜欢的地方。"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "option": "SN",
-    "question": "在相同价格下，你会选择乘坐耗时较长的夜间火车还是较快的飞机？",
-    "answers": [
-      {
-        "type": "S",
-        "content": "当然是较快的飞机，立刻出发。"
-      },
-      {
-        "type": "N",
-        "content": "哪有这么浪漫，当然是夜间火车。"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "which": "SN",
-    "question": "在纪念品店，你发现一件非常心仪的纪念品，你会怎么做？",
-    "answers": [
-      {
-        "type": "S",
-        "content": "最后不过就是个漂亮的垃圾，还是省省钱吧。"
-      },
-      {
-        "type": "N",
-        "content": "这种东西在哪里再买到？当然是马上购买。"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "which": "SN",
-    "question": "在旅行地，一个外国人邀请你参加家庭聚会。你会怎么做？",
-    "answers": [
-      {
-        "type": "S",
-        "content": "虽然很感谢，但为了安全起见，还是礼貌地拒绝。"
-      },
-      {
-        "type": "N",
-        "content": "哇，有机会体验这种事情真是太兴奋了，当然会去参加。"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "option": "TF",
-    "question": "突然有一个外国人向你借交通费，你会怎么做？",
-    "answers": [
-      {
-        "type": "T",
-        "content": "礼貌地表示抱歉并拒绝。"
-      },
-      {
-        "type": "F",
-        "content": "心里觉得可怜，给他一些零钱。"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "option": "TF",
-    "question": "错过了去下一个城市的最后一班巴士，你会怎么做？",
-    "answers": [
-      {
-        "type": "T",
-        "content": "立刻查询明天的车次。"
-      },
-      {
-        "type": "F",
-        "content": "算了，先吃顿饭再说。"
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "option": "TF",
-    "question": "在旅行地，你遇到一个你喜欢的异性，你会怎么做？",
-    "answers": [
-      {
-        "type": "T",
-        "content": "这只是一个过路人，为了剩下的行程，我会分开。"
-      },
-      {
-        "type": "F",
-        "content": "行程不再重要，我想和这个人一起旅行。"
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "option": "JP",
-    "question": "独自旅行 VS 与朋友一起旅行，你会选择哪个？",
-    "answers": [
-      {
-        "type": "J",
-        "content": "我的英语也不太好，又害怕，与朋友一起更好。"
-      },
-      {
-        "type": "P",
-        "content": "独自旅行最舒适和开心。"
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "option": "JP",
-    "question": "你的旅行风格是什么？",
-    "answers": [
-      {
-        "type": "J",
-        "content": "一分一秒都不能浪费，必须完美地制定行程。"
-      },
-      {
-        "type": "P",
-        "content": "只要手机在手，无所畏惧，无需制定计划。"
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "option": "JP",
-    "question": "你如何找到独特的美食？",
-    "answers": [
-      {
-        "type": "J",
-        "content": "列出美食清单，然后选择去哪家。"
-      },
-      {
-        "type": "P",
-        "content": "看到餐厅里有很多人，就进去尝试。"
-      }
-    ]
-  }
-]
+{
+  "url": "http://www.sssch.net/Admin/ckfinder/userfiles/files/xinlizixun/zhuanti/MBTI%E6%80%A7%E6%A0%BC%E6%B5%8B%E8%AF%95%E9%A2%98%E5%8F%8A%E8%AE%A1%E5%88%86%E6%A0%87%E5%87%86%EF%BC%8893%E9%A2%98%EF%BC%89.pdf",
+  "firstPart": [
+    // {
+    //   "id": 1,
+    //   "question": "当你某日想去某个地方，你会____？",
+    //   "answers": [
+    //     {
+    //       "type": "X1",
+    //       "content": "计划好将做的事情以及何时做"
+    //     },
+    //     {
+    //       "type": "X2",
+    //       "content": "什么都不想就去"
+    //     }
+    //   ]
+    // },
+    {
+      "id": 2,
+      "question": "如果你是一位老师，你愿教____？",
+      "answers": [
+        {
+          "type": "X3",
+          "content": "涉及事实的课程"
+        },
+        {
+          "type": "X4",
+          "content": "涉及理论的课程"
+        }
+      ]
+    },{
+      "id": 3,
+      "question": "你通常是____？",
+      "answers": [
+        {
+          "type": "X5",
+          "content": "一个善于交际的人"
+        },
+        {
+          "type": "X6",
+          "content": "安静缄默的人"
+        }
+      ]
+    },{
+      "id": 4,
+      "question": "你喜欢____？",
+      "answers": [
+        {
+          "type": "X1",
+          "content": "事先安排好约会，聚会等"
+        },
+        {
+          "type": "X2",
+          "content": "只要时机恰当就无拘无束地做任何有趣的事"
+        }
+      ]
+    },{
+      "id": 5,
+      "question": "你通常和____相处得更好？",
+      "answers": [
+        {
+          "type": "X3",
+          "content": "现实的人"
+        },
+        {
+          "type": "X4",
+          "content": "想象力丰富的人"
+        }
+      ]
+    },{
+      "id": 6,
+      "question": "当你和一群人在一起时，你会____？",
+      "answers": [
+        {
+          "type": "X5",
+          "content": "参加大家的谈话"
+        },
+        {
+          "type": "X6",
+          "content": "只同你熟知的人单独谈话"
+        }
+      ]
+    },{
+      "id": 7,
+      "question": "往往，你是 ____？",
+      "answers": [
+        {
+          "type": "X7",
+          "content": "情感驾驭理智"
+        },
+        {
+          "type": "X8",
+          "content": "理智驾驭情感"
+        }
+      ]
+    },
+    // {
+    //   "id": 8,
+    //   "question": "你更喜欢____做多数事情？",
+    //   "answers": [
+    //     {
+    //       "type": "X1",
+    //       "content": "有计划地"
+    //     },
+    //     {
+    //       "type": "X2",
+    //       "content": "即兴地"
+    //     }
+    //   ]
+    // },
+    {
+      "id": 9,
+      "question": "你愿意自己被认为是一个____？",
+      "answers": [
+        {
+          "type": "X3",
+          "content": "善于动手的人"
+        },
+        {
+          "type": "X4",
+          "content": "善于创意的人"
+        }
+      ]
+    },{
+      "id": 10,
+      "question": "在大群体中，你常更多地____？",
+      "answers": [
+        {
+          "type": "X5",
+          "content": "介绍他人"
+        },
+        {
+          "type": "X6",
+          "content": "由别人来介绍你"
+        }
+      ]
+    },{
+      "id": 11,
+      "question": "按日程表办事____？",
+      "answers": [
+        {
+          "type": "X1",
+          "content": "正合你意"
+        },
+        {
+          "type": "X2",
+          "content": "束缚了你"
+        }
+      ]
+    },{
+      "id": 12,
+      "question": "你更喜欢____？",
+      "answers": [
+        {
+          "type": "X3",
+          "content": "务实且有丰富常识的人"
+        },
+        {
+          "type": "X4",
+          "content": "头脑灵活的人"
+        }
+      ]
+    },
+    // {
+    //   "id": 13,
+    //   "question": "你觉得通常别人要花费____？",
+    //   "answers": [
+    //     {
+    //       "type": "X5",
+    //       "content": "一小段时间来了解你"
+    //     },
+    //     {
+    //       "type": "X6",
+    //       "content": "很久来了解你"
+    //     }
+    //   ]
+    // },
+    {
+      "id": 14,
+      "question": "被称为____是更高的赞赏？",
+      "answers": [
+        {
+          "type": "X7",
+          "content": "感性的人"
+        },
+        {
+          "type": "X8",
+          "content": "一贯理性的人"
+        }
+      ]
+    },{
+      "id": 15,
+      "question": "对于制定周末计划，你觉得____？",
+      "answers": [
+        {
+          "type": "X1",
+          "content": "很有必要"
+        },
+        {
+          "type": "X2",
+          "content": "没必要"
+        }
+      ]
+    },
+    // {
+    //   "id": 16,
+    //   "question": "你愿把____作为朋友？",
+    //   "answers": [
+    //     {
+    //       "type": "X3",
+    //       "content": "脚踏实地的人"
+    //     },
+    //     {
+    //       "type": "X4",
+    //       "content": "常有新观点的人"
+    //     }
+    //   ]
+    // },
+    {
+      "id": 17,
+      "question": "多数时候，你倾向于____？",
+      "answers": [
+        {
+          "type": "X5",
+          "content": "同他人在一起"
+        },
+        {
+          "type": "X6",
+          "content": "独处"
+        }
+      ]
+    },{
+      "id": 18,
+      "question": "日常工作中，你喜欢____？",
+      "answers": [
+        {
+          "type": "X1",
+          "content": "通常先安排好工作并加以完成，以免压力过大"
+        },
+        {
+          "type": "X2",
+          "content": "在时间紧迫的情况下争分夺秒地工作"
+        }
+      ]
+    },{
+      "id": 19,
+      "question": "当你为了消遣而阅读时，你____？",
+      "answers": [
+        {
+          "type": "X3",
+          "content": "喜欢作者确切地表达其意思"
+        },
+        {
+          "type": "X4",
+          "content": "欣赏奇特新颖的表达方式"
+        }
+      ]
+    },{
+      "id": 20,
+      "question": "你能否____？",
+      "answers": [
+        {
+          "type": "X5",
+          "content": "只要愿意就能轻松地同几乎任何人说个没完"
+        },
+        {
+          "type": "X6",
+          "content": "只能在特定场合下或同特定的人才愿意讲许多话"
+        }
+      ]
+    },{
+      "id": 21,
+      "question": "你更倾向于____？",
+      "answers": [
+        {
+          "type": "X7",
+          "content": "感性地做事"
+        },
+        {
+          "type": "X8",
+          "content": "依逻辑行事"
+        }
+      ]
+    },{
+      "id": 22,
+      "question": "当有一项特殊工作时，你会____？",
+      "answers": [
+        {
+          "type": "X1",
+          "content": "在开始前精心组织策划"
+        },
+        {
+          "type": "X2",
+          "content": "在工作进行中找出必要环节"
+        }
+      ]
+    },{
+      "id": 23,
+      "question": "做很多人都会做的事情时，你喜欢____？",
+      "answers": [
+        {
+          "type": "X3",
+          "content": "按惯例做"
+        },
+        {
+          "type": "X4",
+          "content": "按自己独创的方式做"
+        }
+      ]
+    },
+    // {
+    //   "id": 24,
+    //   "question": "你新认识的人____说出你的兴趣所在？",
+    //   "answers": [
+    //     {
+    //       "type": "X5",
+    //       "content": "马上就能"
+    //     },
+    //     {
+    //       "type": "X6",
+    //       "content": "只有当他们真正了解你之后才能"
+    //     }
+    //   ]
+    // },
+    // {
+    //   "id": 25,
+    //   "question": "在计划一次旅行时，你更喜欢____？",
+    //   "answers": [
+    //     {
+    //       "type": "X1",
+    //       "content": "事先就知道在大部分日子所将做的事情"
+    //     },
+    //     {
+    //       "type": "X2",
+    //       "content": "在多数情况下随心所欲地行事"
+    //     }
+    //   ]
+    // },
+    {
+      "id": 26,
+      "question": "多数人认为你____？",
+      "answers": [
+        {
+          "type": "X5",
+          "content": "非常坦率"
+        },
+        {
+          "type": "X6",
+          "content": "不太把自己的事情告诉别人"
+        }
+      ]
+    }
+  ],
+  "secondPart": [
+    {
+      "id": 27,
+      "question": "",
+      "answers": [
+        {
+          "type": "X3",
+          "content": "事实"
+        },
+        {
+          "type": "X4",
+          "content": "观点"
+        }
+      ]
+    },{
+      "id": 28,
+      "question": "",
+      "answers": [
+        {
+          "type": "X7",
+          "content": "热忱"
+        },
+        {
+          "type": "X8",
+          "content": "坚决"
+        }
+      ]
+    },{
+      "id": 29,
+      "question": "",
+      "answers": [
+        {
+          "type": "X3",
+          "content": "切实"
+        },
+        {
+          "type": "X4",
+          "content": "创新"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "question": "",
+      "answers": [
+        {
+          "type": "X1",
+          "content": "有计划"
+        },
+        {
+          "type": "X2",
+          "content": "随意"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "question": "",
+      "answers": [
+        {
+          "type": "X3",
+          "content": "实在"
+        },
+        {
+          "type": "X4",
+          "content": "抽象"
+        }
+      ]
+    },{
+      "id": 32,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y7",
+          "content": "感觉"
+        },
+        {
+          "type": "Y8",
+          "content": "思考"
+        }
+      ]
+    },{
+      "id": 33,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y3",
+          "content": "已知的"
+        },
+        {
+          "type": "Y4",
+          "content": "新颖的"
+        }
+      ]
+    },{
+      "id": 34,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y7",
+          "content": "感性"
+        },
+        {
+          "type": "Y8",
+          "content": "理性"
+        }
+      ]
+    },{
+      "id": 35,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y1",
+          "content": "安排好的"
+        },
+        {
+          "type": "Y2",
+          "content": "不受限制的"
+        }
+      ]
+    },{
+      "id": 36,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y5",
+          "content": "热情"
+        },
+        {
+          "type": "Y6",
+          "content": "安静"
+        }
+      ]
+    },{
+      "id": 37,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y7",
+          "content": "温柔"
+        },
+        {
+          "type": "Y8",
+          "content": "坚硬"
+        }
+      ]
+    },{
+      "id": 38,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y3",
+          "content": "陈述"
+        },
+        {
+          "type": "Y4",
+          "content": "观念"
+        }
+      ]
+    },{
+      "id": 39,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y7",
+          "content": "慈悲心肠"
+        },
+        {
+          "type": "Y8",
+          "content": "意志坚强"
+        }
+      ]
+    },{
+      "id": 40,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y3",
+          "content": "事实的"
+        },
+        {
+          "type": "Y4",
+          "content": "理论的"
+        }
+      ]
+    },{
+      "id": 41,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y5",
+          "content": "很多朋友"
+        },
+        {
+          "type": "Y6",
+          "content": "少许朋友"
+        }
+      ]
+    },{
+      "id": 42,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y1",
+          "content": "系统的"
+        },
+        {
+          "type": "Y2",
+          "content": "自发的"
+        }
+      ]
+    },{
+      "id": 43,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y3",
+          "content": "确定"
+        },
+        {
+          "type": "Y4",
+          "content": "推测"
+        }
+      ]
+    },{
+      "id": 44,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y7",
+          "content": "宽容"
+        },
+        {
+          "type": "Y8",
+          "content": "坚定"
+        }
+      ]
+    },{
+      "id": 45,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y3",
+          "content": "必然性"
+        },
+        {
+          "type": "Y4",
+          "content": "可能性"
+        }
+      ]
+    },{
+      "id": 46,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y7",
+          "content": "动之以情"
+        },
+        {
+          "type": "Y8",
+          "content": "晓之以理"
+        }
+      ]
+    },{
+      "id": 47,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y5",
+          "content": "动之以情"
+        },
+        {
+          "type": "Y6",
+          "content": "晓之以理"
+        }
+      ]
+    },{
+      "id": 48,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y7",
+          "content": "温和"
+        },
+        {
+          "type": "Y8",
+          "content": "力量"
+        }
+      ]
+    },{
+      "id": 49,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y3",
+          "content": "现实"
+        },
+        {
+          "type": "Y4",
+          "content": "理想"
+        }
+      ]
+    },{
+      "id": 50,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y7",
+          "content": "好心的"
+        },
+        {
+          "type": "Y8",
+          "content": "称职的"
+        }
+      ]
+    },{
+      "id": 51,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y3",
+          "content": "事实"
+        },
+        {
+          "type": "Y4",
+          "content": "理论"
+        }
+      ]
+    },{
+      "id": 52,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y1",
+          "content": "系统"
+        },
+        {
+          "type": "Y2",
+          "content": "随机"
+        }
+      ]
+    },{
+      "id": 53,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y3",
+          "content": "现实的"
+        },
+        {
+          "type": "Y4",
+          "content": "想象的"
+        }
+      ]
+    },{
+      "id": 54,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y7",
+          "content": "易动情的"
+        },
+        {
+          "type": "Y8",
+          "content": "客观的"
+        }
+      ]
+    },{
+      "id": 55,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y3",
+          "content": "建造"
+        },
+        {
+          "type": "Y4",
+          "content": "发明"
+        }
+      ]
+    },{
+      "id": 56,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y7",
+          "content": "感情丰富的"
+        },
+        {
+          "type": "Y8",
+          "content": "注重实际的"
+        }
+      ]
+    },{
+      "id": 57,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y1",
+          "content": "有序的"
+        },
+        {
+          "type": "Y2",
+          "content": "随便的"
+        }
+      ]
+    },{
+      "id": 58,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y5",
+          "content": "开朗"
+        },
+        {
+          "type": "Y6",
+          "content": "文静"
+        }
+      ]
+    },{
+      "id": 59,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y7",
+          "content": "认同"
+        },
+        {
+          "type": "Y8",
+          "content": "分析"
+        }
+      ]
+    },{
+      "id": 60,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y3",
+          "content": "事实的"
+        },
+        {
+          "type": "Y4",
+          "content": "想象的"
+        }
+      ]
+    },{
+      "id": 61,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y7",
+          "content": "祝福"
+        },
+        {
+          "type": "Y8",
+          "content": "利益"
+        }
+      ]
+    },{
+      "id": 62,
+      "question": "",
+      "answers": [
+        {
+          "type": "Y3",
+          "content": "详实"
+        },
+        {
+          "type": "Y4",
+          "content": "概括"
+        }
+      ]
+    },{
+      "id": 63,
+      "question": "",
+      "answers": [
+        {
+          "type": "Z1",
+          "content": "决定"
+        },
+        {
+          "type": "Z2",
+          "content": "冲动"
+        }
+      ]
+    },{
+      "id": 64,
+      "question": "",
+      "answers": [
+        {
+          "type": "Z3",
+          "content": "制作"
+        },
+        {
+          "type": "Z4",
+          "content": "创造"
+        }
+      ]
+    },{
+      "id": 65,
+      "question": "",
+      "answers": [
+        {
+          "type": "Z7",
+          "content": "热情"
+        },
+        {
+          "type": "Z8",
+          "content": "客观"
+        }
+      ]
+    },{
+      "id": 66,
+      "question": "",
+      "answers": [
+        {
+          "type": "Z3",
+          "content": "实用的"
+        },
+        {
+          "type": "Z4",
+          "content": "迷人的"
+        }
+      ]
+    },{
+      "id": 67,
+      "question": "",
+      "answers": [
+        {
+          "type": "Z7",
+          "content": "体谅的"
+        },
+        {
+          "type": "Z8",
+          "content": "公正的"
+        }
+      ]
+    },{
+      "id": 68,
+      "question": "",
+      "answers": [
+        {
+          "type": "Z5",
+          "content": "爱交际"
+        },
+        {
+          "type": "Z6",
+          "content": "爱文静"
+        }
+      ]
+    },{
+      "id": 69,
+      "question": "",
+      "answers": [
+        {
+          "type": "Z7",
+          "content": "敏感"
+        },
+        {
+          "type": "Z8",
+          "content": "合理"
+        }
+      ]
+    },{
+      "id": 70,
+      "question": "",
+      "answers": [
+        {
+          "type": "Z3",
+          "content": "制造"
+        },
+        {
+          "type": "Z4",
+          "content": "设计"
+        }
+      ]
+    },{
+      "id": 71,
+      "question": "",
+      "answers": [
+        {
+          "type": "Z7",
+          "content": "有同情心"
+        },
+        {
+          "type": "Z8",
+          "content": "有逻辑头脑"
+        }
+      ]
+    },{
+      "id": 72,
+      "question": "",
+      "answers": [
+        {
+          "type": "Z5",
+          "content": "公开的"
+        },
+        {
+          "type": "Z6",
+          "content": "私人的"
+        }
+      ]
+    },{
+      "id": 73,
+      "question": "",
+      "answers": [
+        {
+          "type": "Z7",
+          "content": "同情怜悯"
+        },
+        {
+          "type": "Z8",
+          "content": "深谋远虑"
+        }
+      ]
+    }
+  ],
+  "thirdPart": [
+    {
+      "id": 74,
+      "question": "通常你更喜欢____？",
+      "answers": [
+        {
+          "type": "Z1",
+          "content": "提前安排好业余活动"
+        },
+        {
+          "type": "Z2",
+          "content": "即兴地做事情"
+        }
+      ]
+    },{
+      "id": 75,
+      "question": "你觉得被许多人围着____？",
+      "answers": [
+        {
+          "type": "Z4",
+          "content": "让你感到更有精神"
+        },
+        {
+          "type": "Z5",
+          "content": "常让你精力衰竭"
+        }
+      ]
+    },
+    // {
+    //   "id": 76,
+    //   "question": "多数情况下，你更喜欢____？",
+    //   "answers": [
+    //     {
+    //       "type": "Z1",
+    //       "content": "按日程表办事"
+    //     },
+    //     {
+    //       "type": "Z2",
+    //       "content": "顺其自然"
+    //     }
+    //   ]
+    // },
+    // {
+    //   "id": 77,
+    //   "question": "在聚会中，你____？",
+    //   "answers": [
+    //     {
+    //       "type": "Z5",
+    //       "content": "总是玩得很开心"
+    //     },
+    //     {
+    //       "type": "Z6",
+    //       "content": "有时觉得无趣"
+    //     }
+    //   ]
+    // },
+    {
+      "id": 78,
+      "question": "作决定时，对于你来说更重要的是____？",
+      "answers": [
+        {
+          "type": "Z7",
+          "content": "考虑人们的感受和观点"
+        },
+        {
+          "type": "Z8",
+          "content": "权衡事实"
+        }
+      ]
+    },{
+      "id": 79,
+      "question": "你喜欢____？",
+      "answers": [
+        {
+          "type": "Z1",
+          "content": "事先很早就作好准备"
+        },
+        {
+          "type": "Z2",
+          "content": "看清事态如何发展再作计划"
+        }
+      ]
+    },
+    // {
+    //   "id": 80,
+    //   "question": "别人____了解你？",
+    //   "answers": [
+    //     {
+    //       "type": "Z5",
+    //       "content": "很容易"
+    //     },
+    //     {
+    //       "type": "Z6",
+    //       "content": "很难"
+    //     }
+    //   ]
+    // },
+    {
+      "id": 81,
+      "question": "你喜欢的处事方式是____？",
+      "answers": [
+        {
+          "type": "Z3",
+          "content": "坚持那些已经有效的方法"
+        },
+        {
+          "type": "Z4",
+          "content": "分析哪些仍有错并挑战未解决的问题"
+        }
+      ]
+    },
+    // {
+    //   "id": 82,
+    //   "question": "你觉得自己更偏向于是一个____？",
+    //   "answers": [
+    //     {
+    //       "type": "Z1",
+    //       "content": "有组织性的人"
+    //     },
+    //     {
+    //       "type": "Z2",
+    //       "content": "自发性的人"
+    //     }
+    //   ]
+    // },
+    // {
+    //   "id": 83,
+    //   "question": "你____？",
+    //   "answers": [
+    //     {
+    //       "type": "Z5",
+    //       "content": "只要愿意，就能和几乎任何一个人谈个没完"
+    //     },
+    //     {
+    //       "type": "Z6",
+    //       "content": "只同和自己有共同兴趣的人才能长时间的交谈"
+    //     }
+    //   ]
+    // },
+    {
+      "id": 84,
+      "question": "你愿在一个____老板（老师）手下工作（学习）？",
+      "answers": [
+        {
+          "type": "Z7",
+          "content": "脾气好，但前后不一致"
+        },
+        {
+          "type": "Z8",
+          "content": "对人严厉，但有条理"
+        }
+      ]
+    },
+    // {
+    //   "id": 85,
+    //   "question": "你更喜欢按照____做大多数事情？",
+    //   "answers": [
+    //     {
+    //       "type": "Z1",
+    //       "content": "已定的日程表 "
+    //     },
+    //     {
+    //       "type": "Z2",
+    //       "content": "当天的感觉"
+    //     }
+    //   ]
+    // },
+    {
+      "id": 86,
+      "question": "在聚会中，你____？",
+      "answers": [
+        {
+          "type": "Z5",
+          "content": "自己聊得多 "
+        },
+        {
+          "type": "Z6",
+          "content": "听别人聊得多"
+        }
+      ]
+    },{
+      "id": 87,
+      "question": "通常，你更喜欢上涉及____的课程？",
+      "answers": [
+        {
+          "type": "Z3",
+          "content": "具体内容"
+        },
+        {
+          "type": "Z4",
+          "content": "概念和原则"
+        }
+      ]
+    },{
+      "id": 88,
+      "question": "当你开始了一项必须在一周内完成的大项目时，你会____？",
+      "answers": [
+        {
+          "type": "Z1",
+          "content": "花时间列出所要做的事情及其先后次序"
+        },
+        {
+          "type": "Z2",
+          "content": "直接开始"
+        }
+      ]
+    },
+    // {
+    //   "id": 89,
+    //   "question": "在社交场合中，你通常觉得____？",
+    //   "answers": [
+    //     {
+    //       "type": "Z5",
+    //       "content": "很容易同大多数人长时间谈话"
+    //     },
+    //     {
+    //       "type": "Z6",
+    //       "content": "同某些人很难开展和维持长时间的谈话"
+    //     }
+    //   ]
+    // },
+    {
+      "id": 90,
+      "question": "被称为____是更高的赞赏？",
+      "answers": [
+        {
+          "type": "Z7",
+          "content": "富有同情心"
+        },
+        {
+          "type": "Z8",
+          "content": "有竞争力"
+        }
+      ]
+    }
+    // ,{
+    //   "id": 91,
+    //   "question": "你觉得按计划行事____？",
+    //   "answers": [
+    //     {
+    //       "type": "Z1",
+    //       "content": "多数时候是有帮助的、适宜的"
+    //     },
+    //     {
+    //       "type": "Z2",
+    //       "content": "有时必要，便令人不爽"
+    //     }
+    //   ]
+    // }
+    ,{
+      "id": 92,
+      "question": "你通常____？",
+      "answers": [
+        {
+          "type": "Z5",
+          "content": "同大家打成一片"
+        },
+        {
+          "type": "Z6",
+          "content": "倾向于独处"
+        }
+      ]
+    }
+    // ,{
+    //   "id": 93,
+    //   "question": "你觉得按计划行事____？",
+    //   "answers": [
+    //     {
+    //       "type": "Z1",
+    //       "content": "开始先确定每一个步骤"
+    //     },
+    //     {
+    //       "type": "Z2",
+    //       "content": "边做边考虑必须完成的事"
+    //     }
+    //   ]
+    // }
+  ]
+}

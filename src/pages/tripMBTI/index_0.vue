@@ -15,14 +15,14 @@
       <text>/{{ TOTAL_SLIDES }}</text>
     </h2>
 
-    <p class="trip-question">
-      {{ questionList[currentSlide].question }}
-    </p>
+    <view class="trip-question">
+      {{ Questions[currentSlide].question }}
+    </view>
 
     <view class="trip-btn-box">
       <up-button 
         class="trip-btn"
-        v-for="(item, index) in questionList[currentSlide].answers" 
+        v-for="(item, index) in Questions[currentSlide].answers" 
         :key="'options_'+index"
         shape="circle"
         :color="mbti[currentSlide]==item.type?'#33a474':''"
@@ -47,15 +47,12 @@
 </template>
 
 <script setup lang="ts">
-import Questions from "@/api/questionsApi.json";
+import Questions from "@/api/questionsApi0.json";
 
 const loading = ref(false);
 const currentSlide = ref(0);
 const mbti = ref<any[]>([]);
-const firstPart = Questions.firstPart;
-const thirdPart = Questions.thirdPart;
-const questionList = [...firstPart, ...thirdPart];
-const TOTAL_SLIDES = firstPart.length + thirdPart.length;
+const TOTAL_SLIDES = Questions.length;
 
 mbti.value = Array(TOTAL_SLIDES).fill("");
 
@@ -65,7 +62,7 @@ const nextSlide = (type: string) => {
     currentSlide.value ++;
   } else {
     loading.value = true;
-    mbtiChecker();
+    mbtiChecker()
   }
 }
 
@@ -74,60 +71,21 @@ const upSlide = () => {
 }
 
 const mbtiChecker = () => {
-    let typeObj = {
-      "X1":0, "X2":0, "X3":0, "X4":0, "X5":0, "X6":0, "X7":0, "X8":0, 
-      "Z1":0, "Z2":0, "Z3":0, "Z4":0, "Z5":0, "Z6":0, "Z7":0, "Z8":0,
-    };
-    let result = {
-      J: 0, P: 0, S: 0, N: 0, E: 0, I: 0, F: 0,
-      T: 0, IE: 0, SN: 0, TF: 0, PJ: 0
-    };
-    let examResult = '';
-
-    mbti.value.forEach(J=>{
-      if (typeObj[J]) {
-        typeObj[J]++
+    let map = {};
+    let result: any[] = [];
+    for (let i = 0; i < mbti.value.length; i++) {
+      if (mbti.value[i] in map) {
+        map[mbti.value[i]] += 1;
       } else {
-        typeObj[J] = 1;
+        map[mbti.value[i]] = 1;
       }
-    })
-
-    result.J = typeObj.X1 + typeObj.Z1;
-    result.P = typeObj.X2 + typeObj.Z2;
-    result.S = typeObj.X3 + typeObj.Z3;
-    result.N = typeObj.X4 + typeObj.Z4;
-    result.E = typeObj.X5 + typeObj.Z5;
-    result.I = typeObj.X6 + typeObj.Z6;
-    result.F = typeObj.X7 + typeObj.Z7;
-    result.T = typeObj.X8 + typeObj.Z8;
-    
-    if(result.I>result.E) {
-      examResult += 'I';
-    } else {
-      examResult += 'E';
-    };
-    if(result.S>result.N) {
-      examResult += 'S';
-    } else {
-      examResult += 'N';
-    };
-    if(result.T>result.F) {
-      examResult += 'T';
-    } else {
-      examResult += 'F';
-    };
-    if(result.P>result.J) {
-      examResult += 'P';
-    } else {
-      examResult += 'J';
-    };
-    
-    result.IE = result.I + result.E;
-    result.SN = result.S + result.N;
-    result.TF = result.T + result.F;
-    result.PJ = result.P + result.J;
-    console.log(result,typeObj);
-    
+    }
+    for (let count in map) {
+      if (map[count] >= 2) {
+        result.push(count);
+      }
+    }
+    const examResult = result.join('');
     setTimeout(() => {
       uni.navigateTo({
         url: `/pages/result/index?type=${examResult}`
@@ -175,8 +133,6 @@ const mbtiChecker = () => {
   color: #4e4e4e;
   font-size: 1.4rem;
   font-weight: bolder;
-  word-break:break-all;
-  word-wrap:break-word;
 }
 
 .trip-btn-box {
